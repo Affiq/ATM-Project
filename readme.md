@@ -27,7 +27,7 @@ BankNoteStack
 Works by iteratively taking the largest divisor, calculating how much they can withdraw and deducts amount, before moving onto the next divisor.
 
 
-## ATM
+ATM
 -getNoteStackTotal() - returns the available funds within the ATM
 -printNoteStack() - prints the values x quantity of notes in the stack
 -withdrawValue(int amount) - where the bulk of the calculation takes place. Checks if it is first able to 
